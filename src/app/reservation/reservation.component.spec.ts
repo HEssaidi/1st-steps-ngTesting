@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ArgumentOutOfRangeError } from 'rxjs';
 
 import { ReservationComponent } from './reservation.component';
 
@@ -28,5 +29,10 @@ describe('ReservationComponent', () => {
   });
   it('it should unregister a customer', () => {
     expect(component.unRegisterCustomer()).toBe(9);
+  });
+  it('room is reserved or not', () => {
+    let currentReserv= new ReservationComponent();
+    let isRoomReserved = currentReserv.reserveRoom();
+    expect(isRoomReserved).toBeTruthy()
   });
 });

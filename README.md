@@ -6,4 +6,16 @@ My first steps into Angular testing using Karma/Jasmine
 #### beforeEach
 is executed before each unit test; It will only be executed before each it() call.
 we have other test cases like afterEach/beforeAll/afterAll ! 
+...
+
+#### AAA pattern
+AAA is a common standard for writing unit test cases like same as JAVA.
+Arrange: It means arrange everything to setup unit test cases, like creating objects, initializing/mocking data...
+Act: means execute necessary functionality/method that needs to be tested.
+Assert: Check the expected result, easy peasy !!!!!! 
+
+
+
+
+
 
