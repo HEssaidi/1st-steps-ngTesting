@@ -14,6 +14,9 @@ Arrange: It means arrange everything to setup unit test cases, like creating obj
 Act: means execute necessary functionality/method that needs to be tested. <br />
 Assert: Check the expected result, easy peasy !!!!!! 
 
+#### TestBed
+TestBed is the primary api for writing unit tests for Angular applications and libraries.
+
 
 
 
