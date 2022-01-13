@@ -23,4 +23,10 @@ describe('ReservationComponent', () => {
     expect(component).toBeTruthy();
   });
   
+  it('it should register a customer', () => {
+    expect(component.registerCustomer()).toBe(11);
+  });
+  it('it should unregister a customer', () => {
+    expect(component.unRegisterCustomer()).toBe(9);
+  });
 });
