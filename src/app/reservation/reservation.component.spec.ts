@@ -31,8 +31,8 @@ describe('ReservationComponent', () => {
     expect(component.unRegisterCustomer()).toBe(9);
   });
   it('room is reserved or not', () => {
-    let currentReserv= new ReservationComponent();
-    let isRoomReserved = currentReserv.reserveRoom();
+    // let currentReserv= new ReservationComponent();  
+    let isRoomReserved = component.reserveRoom();
     expect(isRoomReserved).toBeTruthy()
   });
 });

@@ -9,9 +9,9 @@ we have other test cases like afterEach/beforeAll/afterAll !
 ...
 
 #### AAA pattern
-AAA is a common standard for writing unit test cases like same as JAVA.
-Arrange: It means arrange everything to setup unit test cases, like creating objects, initializing/mocking data...
-Act: means execute necessary functionality/method that needs to be tested.
+AAA is a common standard for writing unit test cases like same as JAVA. <br />
+Arrange: It means arrange everything to setup unit test cases, like creating objects, initializing/mocking data... <br />
+Act: means execute necessary functionality/method that needs to be tested. <br />
 Assert: Check the expected result, easy peasy !!!!!! 
 
 
